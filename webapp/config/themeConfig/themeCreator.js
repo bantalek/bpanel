@@ -471,7 +471,6 @@ const themeCreator = (_themeVariables = {}, _themeConfig = {}) => {
 
   const {
     app,
-    condensedTextView,
     copyIcon,
     sidebar,
     headerbar,
@@ -489,7 +488,6 @@ const themeCreator = (_themeVariables = {}, _themeConfig = {}) => {
 
   const styleSheet = {
     app: StyleSheet.create(app),
-    condensedTextView: StyleSheet.create(condensedTextView),
     copyIcon: StyleSheet.create(copyIcon),
     sidebar: StyleSheet.create(sidebar),
     headerbar: StyleSheet.create(headerbar),
